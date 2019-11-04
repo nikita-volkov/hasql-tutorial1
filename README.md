@@ -39,7 +39,7 @@ We do not isolate codecs into their own modules, because they are always determi
 
 # Custom types
 
-We avoid custom types for packing the results or rows in statements, same as their parameters. We do so because the nature of statement implies that what it returns or accepts is always determined by the statement's SQL and schema and never the other way around. Introduction of custom types tends to bring confusion to this subject.
+We avoid custom types for packing the results or rows in statements, same as their parameters. We do so because the nature of statement implies that what it returns or accepts is always determined by the statement's SQL and schema and never the other way around. Introduction of custom types tends to bring confusion into this subject.
 
 # Transaction library version
 
