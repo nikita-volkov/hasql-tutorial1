@@ -8,7 +8,7 @@ In the project we present an example of a DB-integration library, which provides
 
 # Library isolation
 
-It is best to have your database integration layer isolated into a dedicated library. When working on this library this gives you a clear problem scope of just the integration with the DB and it makes the library reusable across your final application projects, which there can be many: CLI-utils, REST-APIs and etc.
+It is best to have your database integration layer isolated into a dedicated library. When working on this library this gives you a clear problem scope of just the integration with a DB and it makes the library reusable across your final application projects, of which there can be many: CLI-utils, REST-APIs and etc.
 
 All those applications will be using a shared library for their DB-integration layer. Any update to the DB-integration will make it available to all of them at near to zero cost. This cost brings us to the subject of encapsulation.
 
