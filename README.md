@@ -37,6 +37,8 @@ This comes with several benefits:
 
 We do not isolate codecs into their own modules, because they are always determined by the statements they are used in. Instead we treat codecs as part of the statement specification. Hence it is best to have them specified in the same place where the SQL of the statement is.
 
+You can find a detailed explanation in [this Reddit post](https://www.reddit.com/r/haskell/comments/drijpq/tutorial_on_organization_of_hasql_code_in_a/f6m7hsu?utm_source=share&utm_medium=web2x).
+
 # Custom types
 
 We avoid custom types for packing the results or rows in statements, same as their parameters. We do so because the nature of statement implies that what it returns or accepts is always determined by the statement's SQL and schema and never the other way around. Introduction of custom types tends to bring confusion into this subject.
