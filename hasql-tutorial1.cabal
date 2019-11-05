@@ -15,5 +15,5 @@ library
     HasqlTutorial1.Transaction
   build-depends:
     hasql >=1.4 && <1.5,
-    hasql-transaction >=0.9 && <0.10,
+    hasql-transaction >=0.10 && <0.11,
     rerebase >=1.4 && <1.5

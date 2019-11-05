@@ -45,7 +45,7 @@ We avoid custom types for packing the results or rows in statements, same as the
 
 # Transaction library version
 
-We're using "hasql-transaction" of version `0.9.*` here, because it is the next candidate for a major release of that library. It is in experimental state for now, but turns stable.
+We're using "hasql-transaction" of version `0.10.*` here, because it is the next candidate for a major release of that library. It is in experimental state for now, but turns stable.
 
 # Schema
 
